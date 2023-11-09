@@ -28,7 +28,7 @@ namespace Task
             int MounthDeadline = 1;
             var Customers = new List<Customer>()
             {
-                new Customer("John", "Cameron"),//ID John — 2405001
+                new Customer("John", "Cameron"),//ID John — 2405000 Пароль для всех 124
             };
             var Projects = new List<Project>()
             {
@@ -36,15 +36,15 @@ namespace Task
             };
             var TeamLeaders = new List<TeamLeader>() 
             {
-                new TeamLeader("Tom", "Hamerton"),//ID Tom — 2405002
+                new TeamLeader("Tom", "Hamerton"),//ID Tom — 2405001
             };
             var Performers = new List<Performer>()
             {
-                new Performer("Coll", "Merkel"),//ID Coll — 2405003
+                new Performer("Coll", "Merkel"),//ID Coll — 2405002
             };
             var Administrators = new List<Administrator>()
             {
-                new Administrator("Alexander", "Arkhipov"),//ID Alekxander — 2405004
+                new Administrator("Alexander", "Arkhipov"),//ID Alekxander — 2405003
             };
             Customers[0].SetPassword("124");
             TeamLeaders[0].SetPassword("124");
